@@ -10,55 +10,21 @@ public static class StaticDataEndpoints
 	static readonly string RagDataFineName = "BetweenTheRoleAndTheTragedy_RagData.txt";
 	public static void MapBetweenTheRoleAndTheTragedyQuestions(this WebApplication app)
 	{
-		app.MapGet(QuestionsUrl, async (IWebHostEnvironment env) =>
-		{
-			var filePath = Path.Combine(env.WebRootPath, QuestionsFileName);
-
-			if (!File.Exists(filePath))
-			{
-				return Results.NotFound();
-			}
-
-			try
-			{
-				var jsonString = await File.ReadAllTextAsync(filePath);
-				return Results.Text(jsonString, "application/json");
-			}
-			catch (Exception ex)
-			{
-				return Results.Problem($"Error reading file: {ex.Message}");
-			}
-		});
+		ReturnFileContentAsText(app, QuestionsUrl, QuestionsFileName);
 	}
-
 	public static void MapBetweenTheRoleAndTheTragedyModelTunning(this WebApplication app)
 	{
-		app.MapGet(ModelTunningUrl, async (IWebHostEnvironment env) =>
-		{
-			var filePath = Path.Combine(env.WebRootPath, ModelTuningFileName);
-
-			if (!File.Exists(filePath))
-			{
-				return Results.NotFound();
-			}
-
-			try
-			{
-				var jsonString = await File.ReadAllTextAsync(filePath);
-				return Results.Text(jsonString, "application/text");
-			}
-			catch (Exception ex)
-			{
-				return Results.Problem($"Error reading file: {ex.Message}");
-			}
-		});
+		ReturnFileContentAsText(app, ModelTunningUrl, ModelTuningFileName);
 	}
-
 	public static void MapBetweenTheRoleAndTheTragedyModelRagData(this WebApplication app)
 	{
-		app.MapGet(RagDataUrl, async (IWebHostEnvironment env) =>
+		ReturnFileContentAsText(app, RagDataUrl, RagDataFineName);
+	}
+	private static void ReturnFileContentAsText(WebApplication app, string url, string fileName)
+	{
+		app.MapGet(url, async (IWebHostEnvironment env) =>
 		{
-			var filePath = Path.Combine(env.WebRootPath, RagDataFineName);
+			var filePath = Path.Combine(env.WebRootPath, fileName);
 
 			if (!File.Exists(filePath))
 			{
