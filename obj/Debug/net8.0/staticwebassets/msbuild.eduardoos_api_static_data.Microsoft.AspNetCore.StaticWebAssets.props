@@ -1,0 +1,58 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>eduardoos_api_static_data</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/eduardoos_api_static_data</BasePath>
+      <RelativePath>BetweenTheRoleAndTheTragedy.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mxr2x8wkbu</Fingerprint>
+      <Integrity>FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8=</Integrity>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy_ModelTuning.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>eduardoos_api_static_data</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/eduardoos_api_static_data</BasePath>
+      <RelativePath>BetweenTheRoleAndTheTragedy_ModelTuning.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9t8bzncx6f</Fingerprint>
+      <Integrity>oz8VlVy3+VXNjxAqc2Vb4dU0blkgRNf1yqVZf7qmTIE=</Integrity>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy_ModelTuning.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy_RagData.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>eduardoos_api_static_data</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/eduardoos_api_static_data</BasePath>
+      <RelativePath>BetweenTheRoleAndTheTragedy_RagData.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ijq22yw1la</Fingerprint>
+      <Integrity>3jys6aRUfWNEyHusNr/jUarsQOKR5tRy9aut3SFxHsM=</Integrity>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy_RagData.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

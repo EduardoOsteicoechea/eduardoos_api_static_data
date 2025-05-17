@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Publish",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "BetweenTheRoleAndTheTragedy.json",
+      "AssetFile": "BetweenTheRoleAndTheTragedy.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 22:49:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8="
+        }
+      ]
+    },
+    {
+      "Route": "BetweenTheRoleAndTheTragedy.mxr2x8wkbu.json",
+      "AssetFile": "BetweenTheRoleAndTheTragedy.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 22:49:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mxr2x8wkbu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8="
+        },
+        {
+          "Name": "label",
+          "Value": "BetweenTheRoleAndTheTragedy.json"
+        }
+      ]
+    }
+  ]
 }

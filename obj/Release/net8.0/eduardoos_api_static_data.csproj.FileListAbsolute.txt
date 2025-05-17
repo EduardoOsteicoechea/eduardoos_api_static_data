@@ -29,3 +29,4 @@ C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\obj\R
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\obj\Release\net8.0\eduardoos_api_static_data.pdb
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\obj\Release\net8.0\eduardoos_api_static_data.genruntimeconfig.cache
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\obj\Release\net8.0\ref\eduardoos_api_static_data.dll
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Release\net8.0\wwwroot\BetweenTheRoleAndTheTragedy.json

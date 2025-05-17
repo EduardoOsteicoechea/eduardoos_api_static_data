@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\eduar\\Documents\\work\\internal\\eduardoos\\eduardoos_api_static_data\\wwwroot\\BetweenTheRoleAndTheTragedy.json",
+      "PackagePath": "staticwebassets\\BetweenTheRoleAndTheTragedy.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.eduardoos_api_static_data.props",
+      "PackagePath": "build\\eduardoos_api_static_data.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eduardoos_api_static_data.props",
+      "PackagePath": "buildMultiTargeting\\eduardoos_api_static_data.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.eduardoos_api_static_data.props",
+      "PackagePath": "buildTransitive\\eduardoos_api_static_data.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.eduardoos_api_static_data.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.eduardoos_api_static_data.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

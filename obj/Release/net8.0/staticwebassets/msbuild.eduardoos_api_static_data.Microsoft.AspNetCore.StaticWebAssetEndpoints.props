@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/eduardoos_api_static_data/BetweenTheRoleAndTheTragedy.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FiVpvw0GdY\u002BwyloyklN0zVUzBEBmwBTVFhu6sr\u002B5iY8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022FiVpvw0GdY\u002BwyloyklN0zVUzBEBmwBTVFhu6sr\u002B5iY8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 22:49:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/eduardoos_api_static_data/BetweenTheRoleAndTheTragedy.mxr2x8wkbu.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BetweenTheRoleAndTheTragedy.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mxr2x8wkbu"},{"Name":"integrity","Value":"sha256-FiVpvw0GdY\u002BwyloyklN0zVUzBEBmwBTVFhu6sr\u002B5iY8="},{"Name":"label","Value":"_content/eduardoos_api_static_data/BetweenTheRoleAndTheTragedy.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022FiVpvw0GdY\u002BwyloyklN0zVUzBEBmwBTVFhu6sr\u002B5iY8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 May 2025 22:49:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

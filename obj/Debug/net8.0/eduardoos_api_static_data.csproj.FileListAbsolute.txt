@@ -29,3 +29,6 @@ C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\obj\D
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\obj\Debug\net8.0\eduardoos_api_static_data.genruntimeconfig.cache
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\obj\Debug\net8.0\ref\eduardoos_api_static_data.dll
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\eduardoos_api_static_data.staticwebassets.runtime.json
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\wwwroot\BetweenTheRoleAndTheTragedy.json
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\wwwroot\BetweenTheRoleAndTheTragedy_ModelTuning.txt
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\wwwroot\BetweenTheRoleAndTheTragedy_RagData.txt

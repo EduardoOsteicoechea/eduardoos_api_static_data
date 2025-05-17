@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DGqwLqBzawV85UNQ+P2hSZ66aq9shjBdi9NAwocvWhM=",
+  "Hash": "ihHoZGT1ENC5/Q7+O0v3ggdT3/sTRNZW7a8yaxJSsKQ=",
   "Source": "eduardoos_api_static_data",
   "BasePath": "_content/eduardoos_api_static_data",
   "Mode": "Default",
@@ -15,6 +15,111 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\eduar\\Documents\\work\\internal\\eduardoos\\eduardoos_api_static_data\\wwwroot\\BetweenTheRoleAndTheTragedy.json",
+      "SourceId": "eduardoos_api_static_data",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eduar\\Documents\\work\\internal\\eduardoos\\eduardoos_api_static_data\\wwwroot\\",
+      "BasePath": "_content/eduardoos_api_static_data",
+      "RelativePath": "BetweenTheRoleAndTheTragedy#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mxr2x8wkbu",
+      "Integrity": "FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BetweenTheRoleAndTheTragedy.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "BetweenTheRoleAndTheTragedy.json",
+      "AssetFile": "C:\\Users\\eduar\\Documents\\work\\internal\\eduardoos\\eduardoos_api_static_data\\wwwroot\\BetweenTheRoleAndTheTragedy.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 22:49:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8="
+        }
+      ]
+    },
+    {
+      "Route": "BetweenTheRoleAndTheTragedy.mxr2x8wkbu.json",
+      "AssetFile": "C:\\Users\\eduar\\Documents\\work\\internal\\eduardoos\\eduardoos_api_static_data\\wwwroot\\BetweenTheRoleAndTheTragedy.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 22:49:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mxr2x8wkbu"
+        },
+        {
+          "Name": "label",
+          "Value": "BetweenTheRoleAndTheTragedy.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FiVpvw0GdY+wyloyklN0zVUzBEBmwBTVFhu6sr+5iY8="
+        }
+      ]
+    }
+  ]
 }
