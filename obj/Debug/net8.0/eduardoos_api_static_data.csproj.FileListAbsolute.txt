@@ -1,5 +1,3 @@
-C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\appsettings.json
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\files\BetweenTheRoleAndTheTragedy.json
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\eduardoos_api_static_data.staticwebassets.endpoints.json
 C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Debug\net8.0\eduardoos_api_static_data.exe
