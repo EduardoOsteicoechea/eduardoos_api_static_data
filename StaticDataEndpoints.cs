@@ -2,7 +2,7 @@ namespace eduardoos_api_static_data;
 
 public static class StaticDataEndpoints
 {
-	public static void MapStaticDataEndpoints(this WebApplication app) // Renamed for clarity
+	public static void MapBetweenTheRoleAndTheTragedy(this WebApplication app)
 	{
 		app.MapGet("/static_data", async (IWebHostEnvironment env) =>
 		{
