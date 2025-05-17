@@ -5,6 +5,8 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 
-app.MapBetweenTheRoleAndTheTragedy();
+app.MapBetweenTheRoleAndTheTragedyQuestions();
+app.MapBetweenTheRoleAndTheTragedyModelTunning();
+app.MapBetweenTheRoleAndTheTragedyModelRagData();
 
 app.Run(); 
