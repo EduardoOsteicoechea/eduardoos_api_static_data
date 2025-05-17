@@ -4,7 +4,7 @@ public static class StaticDataEndpoints
 {
 	static readonly string QuestionsUrl = "/static_data/between_the_role_and_the_tragedy/";
 	static readonly string ModelTunningUrl = "/static_data/between_the_role_and_the_tragedy/rag_data";
-	static readonly string RagDataUrl = "/static_data/between_the_role_and_the_tragedy/model_tunning";
+	static readonly string RagDataUrl = "/static_data/between_the_role_and_the_tragedy/model_tuning";
 	static readonly string QuestionsFileName = "BetweenTheRoleAndTheTragedy.json";
 	static readonly string ModelTuningFileName = "BetweenTheRoleAndTheTragedy_ModelTuning.txt";
 	static readonly string RagDataFineName = "BetweenTheRoleAndTheTragedy_RagData.txt";
