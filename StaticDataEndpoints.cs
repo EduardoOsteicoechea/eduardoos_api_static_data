@@ -8,7 +8,7 @@ public static class StaticDataEndpoints
 		{
 			try
 			{
-				Results.Json(JsonFileManager.RetrieveContent("BetweenTheRoleAndTheTragedy.json"));
+				Results.Text(JsonFileManager.RetrieveContent("BetweenTheRoleAndTheTragedy.json"));
 			}
 			catch (System.Exception exception)
 			{
