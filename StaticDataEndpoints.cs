@@ -4,11 +4,12 @@ public static class StaticDataEndpoints
 {
 	public static void MapBetweenTheRoleAndTheTragedy(this WebApplication app)
 	{
-		app.MapGet("/static_data", (HttpContext context) =>
+		app.MapGet("/static_data", async (HttpContext context, IWebHostEnvironment env) =>
 		{
 			try
 			{
-				Results.Text(JsonFileManager.RetrieveContent("BetweenTheRoleAndTheTragedy.json"));
+				string fileContent = await File.ReadAllTextAsync(Path.Combine(env.WebRootPath, "BetweenTheRoleAndTheTragedy.json"));
+				Results.Text(fileContent);
 			}
 			catch (System.Exception exception)
 			{

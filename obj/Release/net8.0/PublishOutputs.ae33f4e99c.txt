@@ -1,0 +1,6 @@
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Release\net8.0\publish\eduardoos_api_static_data.exe
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Release\net8.0\publish\eduardoos_api_static_data.dll
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Release\net8.0\publish\eduardoos_api_static_data.deps.json
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Release\net8.0\publish\eduardoos_api_static_data.runtimeconfig.json
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Release\net8.0\publish\eduardoos_api_static_data.pdb
+C:\Users\eduar\Documents\work\internal\eduardoos\eduardoos_api_static_data\bin\Release\net8.0\publish\Newtonsoft.Json.dll

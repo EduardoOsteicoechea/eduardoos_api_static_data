@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "Hash": "DGqwLqBzawV85UNQ+P2hSZ66aq9shjBdi9NAwocvWhM=",
+  "Hash": "ImXAReMYQ4rvLweoHkfb0EFNgV+k7KGCpK/TKM2q6hY=",
   "Source": "eduardoos_api_static_data",
   "BasePath": "_content/eduardoos_api_static_data",
   "Mode": "Default",
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {

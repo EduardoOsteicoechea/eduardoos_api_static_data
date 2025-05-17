@@ -6,7 +6,7 @@ public static class JsonFileManager
 	{
 		try
 		{
-			using FileStream fileStream = new (fileName, FileMode.Open, FileAccess.Read);
+			using FileStream fileStream = new (Path.Combine(env.WebRootPath, fileName), FileMode.Open, FileAccess.Read);
 			using StreamReader reader = new (fileStream);
 			return reader.ReadToEnd();
 		}
