@@ -1,0 +1,69 @@
+name: Deploy to ec2
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+  
+      - name: Connect to EC2 instance
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            sudo rm -rf /var/cache/nginx/*
+
+            if [ -d "/var/www/html/eduardoos_api_static_data" ]; then
+              echo "/var/www/html/eduardoos_api_static_data exists, removing..."
+              sudo rm -r /var/www/html/eduardoos_api_static_data
+            else
+              echo "/var/www/html/eduardoos_chat_api does not exist, skipping removal."
+            fi
+
+            cd /var/www/html/
+            sudo git clone https://github.com/EduardoOsteicoechea/eduardoos_api_static_data.git
+            
+            if command -v lsof >/dev/null 2>&1; then
+              echo "lsof is available, using it to find and kill processes on port 7070..."
+              if sudo lsof -ti:7070; then
+                echo "Killing processes on port 7070..."
+                sudo kill -9 $(sudo lsof -ti:7070)
+              else
+                echo "No process found listening on port 7070."
+              fi
+            else
+              echo "lsof is not available, using netstat to find and kill processes on port 7070..."
+              if sudo netstat -tuln | grep :7070; then
+                echo "Killing processes on port 7070..."
+                sudo kill -9 $(sudo netstat -tulnp | grep :7070 | awk '{print $7}' | cut -d'/' -f1)
+              else
+                echo "No process found listening on port 7070."
+              fi
+            fi
+
+            cd eduardoos_api_static_data
+            sudo dotnet dev-certs https --trust
+            sudo dotnet restore
+            sudo dotnet publish -c Release
+            cd bin/Release/net8.0/publish 
+            sudo screen -dmS eduardoos_api_static_data sudo dotnet eduardoos_api_static_data.dll --urls "https://*:7070"
+            sudo systemctl restart nginx
+            sudo systemctl reload nginx 
+
+      - name: Wait for deployment
+        run: |
+          sleep 10
