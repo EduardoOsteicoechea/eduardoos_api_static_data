@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "s6WbAfGnTT2IHFsQTQWfuJQe59xrpkhyMNG8zaZ7wCw=",
+  "Source": "eduardoos_api_static_data",
+  "BasePath": "_content/eduardoos_api_static_data",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

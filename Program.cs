@@ -7,4 +7,4 @@ app.MapGet("/static_data", () => "Hello World!");
 
 app.MapBetweenTheRoleAndTheTragedy();
 
-app.Run();
+app.Run(); 

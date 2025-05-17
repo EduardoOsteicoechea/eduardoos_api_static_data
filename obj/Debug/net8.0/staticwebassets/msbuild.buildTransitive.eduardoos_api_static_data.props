@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\eduardoos_api_static_data.props" />
+</Project>
