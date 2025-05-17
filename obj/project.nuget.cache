@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jZ54t5w7cLE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eduar\\Documents\\work\\internal\\eduardoos\\eduardoos_api_static_data\\eduardoos_api_static_data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eduar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
