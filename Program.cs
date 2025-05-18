@@ -8,5 +8,6 @@ app.UseStaticFiles();
 app.MapBetweenTheRoleAndTheTragedyQuestions();
 app.MapBetweenTheRoleAndTheTragedyModelTunning();
 app.MapBetweenTheRoleAndTheTragedyModelRagData();
+app.MapBetweenTheRoleAndTheTragedyArticleRichData();
 
 app.Run(); 
