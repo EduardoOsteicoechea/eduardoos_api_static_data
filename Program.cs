@@ -21,4 +21,5 @@ app.MapBetweenTheRoleAndTheTragedyModelTunning();
 app.MapBetweenTheRoleAndTheTragedyModelRagData();
 app.MapBetweenTheRoleAndTheTragedyArticleRichData();
 
+app.UseCors("AllowLocalhostReact");
 app.Run(); 
