@@ -218,7 +218,7 @@
                "isBiblicallyJustifiedIdeaList": true,
                "biblicallyJustifiedIdeaList": [
                   {
-                     "text": "¿Qué tan semejante es este modelo bíblico al modelo de realización personal occidental?",
+                     "text": "¿Qué tan semejante es este modelo bíblico al modelo de realización individual del mundo occidental?",
                      "biblicalReferences": [
                         ""
                      ]
@@ -237,6 +237,110 @@
                   }
                ]
             }
+         ]
+      },
+
+
+
+      {
+         "heading": "La mujer piadosa depende gozosamente de la protección de Dios",
+         "subideas": [
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "La mujer piadosa no teme el mañana, ni el desempeño de su esposo, porque sabe que su Padre celestial le ama y proteje",
+                     "biblicalReferences": [
+                        "Mat.5.19-34."
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "Por esta confianza en las promesas de Dios, la mujer piadosa huye de afanes laborales que estorben las responsabilidades de su rol",
+                     "biblicalReferences": [
+                        "Tit.2.3-5"
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "Las mujeres creyentes deben sostener a las viudas de su familia",
+                     "biblicalReferences": [
+                        "1.Tim.5.16."
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "La mujer piadosa cumple su llamado de tener y criar hijos si Dios le concede un esposo.",
+                     "biblicalReferences": [
+                        "1.tim.5.14", "1.cor.7.8-9,36-40", "gen.9.7."
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Cómo se puede cuidar niños de pecho y niños de edad preescolar mientras se gobierna el hogar si no se es provisto?",
+                     "biblicalReferences": [
+                        ""
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Cómo subsistimos durante la niñez y adolescencia?",
+                     "biblicalReferences": [
+                        ""
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Cómo podemos subsistir en etapas como la niñez, adolescencia, estudios universitarios asistidos económicamente, enfermedad, viudez y hambruna?",
+                     "biblicalReferences": [
+                        ""
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Qué tan efectiva en el conjunto de responsabilidades bíblicas (criar hijos, administrar el hogar, potenciar el trabajo del esposo, servir a la iglesia, practicar miseriocordia y cultivar la vida conyugal) es una mujer que trabaja una jornada de tiempo completo?",
+                     "biblicalReferences": [
+                        ""
+                     ]
+                  }
+               ]
+            }
+            
          ]
       }
 
