@@ -27,6 +27,66 @@
                   }
                ]
             }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Cuánto se necesita para proveer a los desamparados?",
+                     "biblicalReferences": [
+                        "1.Tim.5.16."
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Cuánto se necesita para honrar a los padres?",
+                     "biblicalReferences": [
+                        "1.tim.5.4."
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Cuánto se necesita para suplir lo propio?",
+                     "biblicalReferences": [
+                        "1.tes.4.10-12."
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿En la situación actual, qué empleos bíblicamente legítimos proveen lo suficiente para cumplir estas responsabilidades?",
+                     "biblicalReferences": [
+                        ""
+                     ]
+                  }
+               ]
+            }
+            ,
+            {
+               "isBiblicallyJustifiedIdeaList": true,
+               "biblicallyJustifiedIdeaList": [
+                  {
+                     "text": "¿Que acciones debemos tomar para obtener estos empleos?",
+                     "biblicalReferences": [
+                        ""
+                     ]
+                  }
+               ]
+            }
          ]
       }
 
