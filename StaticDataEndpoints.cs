@@ -5,9 +5,11 @@ public static class StaticDataEndpoints
 	static readonly string QuestionsUrl = "/static_data/between_the_role_and_the_tragedy/";
 	static readonly string ModelTunningUrl = "/static_data/between_the_role_and_the_tragedy/rag_data";
 	static readonly string RagDataUrl = "/static_data/between_the_role_and_the_tragedy/model_tuning";
+	static readonly string ArticleRichDataDataUrl = "/static_data/between_the_role_and_the_tragedy/article_rich_data";
 	static readonly string QuestionsFileName = "BetweenTheRoleAndTheTragedy.json";
 	static readonly string ModelTuningFileName = "BetweenTheRoleAndTheTragedy_ModelTuning.txt";
-	static readonly string RagDataFineName = "BetweenTheRoleAndTheTragedy_RagData.txt";
+	static readonly string RagDataFileName = "BetweenTheRoleAndTheTragedy_RagData.txt";
+	static readonly string ArticleRichDataFileName = "BetweenTheRoleAndTheTragedy_ArticleRichData.json";
 	public static void MapBetweenTheRoleAndTheTragedyQuestions(this WebApplication app)
 	{
 		ReturnFileContentAsText(app, QuestionsUrl, QuestionsFileName);
@@ -18,7 +20,11 @@ public static class StaticDataEndpoints
 	}
 	public static void MapBetweenTheRoleAndTheTragedyModelRagData(this WebApplication app)
 	{
-		ReturnFileContentAsText(app, RagDataUrl, RagDataFineName);
+		ReturnFileContentAsText(app, RagDataUrl, RagDataFileName);
+	}
+	public static void MapBetweenTheRoleAndTheTragedyArticleRichData(this WebApplication app)
+	{
+		ReturnFileContentAsText(app, ArticleRichDataDataUrl, ArticleRichDataFileName);
 	}
 	private static void ReturnFileContentAsText(WebApplication app, string url, string fileName)
 	{
