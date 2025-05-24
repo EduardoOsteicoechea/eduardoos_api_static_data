@@ -20,9 +20,14 @@
                "isBiblicallyJustifiedIdeaList": true,
                "biblicallyJustifiedIdeaList": [
                   {
-                     "text": "Las mujeres creyentes deben sostener a las viudas de su familia",
+                     "text": "Tanto hombres como mujeres solteros deben sostener a las viudas de su familia sanguínea",
                      "biblicalReferences": [
-                        "1.Tim.5.16."
+                        "1.Tim.5.16.","1.Tim.5.3-4,8"
+                     ],
+                     "extendedExplanation":[
+                        "El Espíritu Santo ordena a todos los creyentes, incluyendo a hijos, nietos, e incluso parientes sanguíneos cercanos, a sostener a los integrantes desvalidos de la familia",
+                        "Notamos esto en instrucciones como la siguiente:",
+                        "... si alguna viuda tiene hijos o nietos, que aprendan estos primero a mostrar piedad para con su propia familia y a recompensar a sus padres, porque esto es agradable delante de Dios"
                      ]
                   }
                ]
