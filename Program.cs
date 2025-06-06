@@ -21,5 +21,9 @@ app.MapBetweenTheRoleAndTheTragedyModelTunning();
 app.MapBetweenTheRoleAndTheTragedyModelRagData();
 app.MapBetweenTheRoleAndTheTragedyArticleRichData();
 
+app.MapAboutEduardoModelTunningUrl();
+app.MapAboutEduardoRAGUrl();
+app.MapAAboutEduardoOutputStructureUrl();
+
 app.UseCors("AllowLocalhostReact");
 app.Run(); 

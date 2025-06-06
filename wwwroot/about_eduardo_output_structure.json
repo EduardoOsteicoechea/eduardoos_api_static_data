@@ -1,0 +1,9 @@
+{
+    "example_input":"The answer to the question is all the time.",
+    "example_output":
+    {
+    "score": "60%",
+    "assesment": "",
+    "action": "ask_again"
+    }
+}
