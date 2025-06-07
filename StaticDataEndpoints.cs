@@ -6,7 +6,8 @@ public static class StaticDataEndpoints
 	static readonly string AboutEduardoRAGUrl = "/static_data/about_eduardo/profile_rag_data";
     static readonly string AboutEduardoOutputStructureUrl = "/static_data/about_eduardo/output_structure";
 
-	static readonly string AboutEduardoModelTunningFileName = "about_eduardo_model_tunning.txt";
+	static readonly string AboutEduardoModelTunningFileName = "about_eduardo_model_tunning.json";
+	// static readonly string AboutEduardoModelTunningFileName = "about_eduardo_model_tunning.txt";
 	static readonly string AboutEduardoRAGFileName = "about_eduardo_profile_rag_data.txt";
     static readonly string AboutEduardoOutputStructureFileName = "about_eduardo_output_structure.json";
     
