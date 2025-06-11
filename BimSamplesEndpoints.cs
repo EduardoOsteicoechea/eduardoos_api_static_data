@@ -6,7 +6,7 @@ public static class BimSamplesEndpoints
 	static readonly string BimSampleApiFileName = "bim_sample_api.json"; 
 	public static void MapBimSampleApiUrl(this WebApplication app)
 	{
-		ReturnFileContentAsText(app, BimSampleApiFileName, BimSampleApiUrl);
+		ReturnFileContentAsText(app, BimSampleApiUrl, BimSampleApiFileName);
 	}
     
 	private static void ReturnFileContentAsText(WebApplication app, string url, string fileName)
