@@ -29,6 +29,6 @@ public static class BimSamplesEndpoints
             {
                 return Results.Problem($"Error reading file: {ex.Message}");
             }
-        });
+        }); 
     }
 }
