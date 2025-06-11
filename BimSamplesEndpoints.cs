@@ -3,7 +3,7 @@ namespace eduardoos_api_static_data;
 public static class BimSamplesEndpoints
 {    
 	static readonly string BimSampleApiUrl = "/static_data/bim_sample_api/";
-	static readonly string BimSampleApiFileName = "bim_sample_api.json";
+	static readonly string BimSampleApiFileName = "bim_sample_api.json"; 
 	public static void MapBimSampleApiUrl(this WebApplication app)
 	{
 		ReturnFileContentAsText(app, BimSampleApiFileName, BimSampleApiUrl);
