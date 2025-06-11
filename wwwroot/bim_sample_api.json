@@ -1,0 +1,168 @@
+[
+    {
+        "codeBase": "AvantLeap.Tools.LocationManager",
+        "methodNamespace": "AL.T.AC.PBPExtractor",
+        "methodDestructuredNamespace": [
+            "AL",
+            "T",
+            "AC",
+            "PBPExtractor"
+        ],
+        "declaringType": "PointExporterCommands",
+        "type": "function",
+        "name": "ExtractAllBlockDataToJson",
+        "description": "Extracts the properties data of the custom basePoint block for testing.",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+        },
+        "output": {
+            "MethodResultOutputType": "System.String",
+            "MethodResultOutputDestructuredNamespace": [
+                "System"
+            ]
+        },
+        "methodDocumentation": "To tun this command in AutoCAD, After compilling the .dll, load it using the NETLOAD command in the AutoCAD text prompt, and the in that same prompt, write the name of this command and select it.",
+        "software": null,
+        "mediaDocumentation": null,
+        "dynamoSampleImplementationFiles": null,
+        "dynamoRelatedNodes": null
+    },
+    {
+        "codeBase": "AvantLeap.Tools.LocationManager",
+        "methodNamespace": "AvantLeap.Tools",
+        "methodDestructuredNamespace": [
+            "AvantLeap",
+            "Tools"
+        ],
+        "declaringType": "Files",
+        "type": "function",
+        "name": "GetJsonFileContentRevitDynamo",
+        "description": "Obtains Revit's Active Autodesk.Revit.DB.Document instance.",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+        },
+        "output": {
+            "MethodResultOutputType": "System.String",
+            "MethodResultOutputDestructuredNamespace": [
+                "System"
+            ]
+        },
+        "methodDocumentation": "",
+        "software": null,
+        "mediaDocumentation": null,
+        "dynamoSampleImplementationFiles": null,
+        "dynamoRelatedNodes": null
+    },
+    {
+        "codeBase": "AvantLeap.Tools.LocationManager",
+        "methodNamespace": "AvantLeap.Tools",
+        "methodDestructuredNamespace": [
+            "AvantLeap",
+            "Tools"
+        ],
+        "declaringType": "Files",
+        "type": "function",
+        "name": "GetJsonFileContent",
+        "description": "Obtains Revit's Active Autodesk.Revit.DB.Document instance.",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+        },
+        "output": {
+            "MethodResultOutputType": "System.String",
+            "MethodResultOutputDestructuredNamespace": [
+                "System"
+            ]
+        },
+        "methodDocumentation": "Obtains Revit's Active Autodesk.Revit.DB.Document instance.",
+        "software": null,
+        "mediaDocumentation": null,
+        "dynamoSampleImplementationFiles": null,
+        "dynamoRelatedNodes": null
+    },
+    {
+        "codeBase": "AvantLeap.Tools.LocationManager",
+        "methodNamespace": "AvantLeap.Tools",
+        "methodDestructuredNamespace": [
+            "AvantLeap",
+            "Tools"
+        ],
+        "declaringType": "RevitDocuments",
+        "type": "function",
+        "name": "GetRevitActiveDocumentRevitDynamo",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+        },
+        "output": {
+            "MethodResultOutputType": "Autodesk.Revit.DB.Document",
+            "MethodResultOutputDestructuredNamespace": [
+                "System"
+            ]
+        },
+        "methodDocumentation": "",
+        "software": null,
+        "mediaDocumentation": null,
+        "dynamoSampleImplementationFiles": null,
+        "dynamoRelatedNodes": null
+    },
+    {
+        "codeBase": "AvantLeap.Tools.LocationManager",
+        "methodNamespace": "AvantLeap.Tools",
+        "methodDestructuredNamespace": [
+            "AvantLeap",
+            "Tools"
+        ],
+        "declaringType": "RevitDocuments",
+        "type": "function",
+        "name": "GetRevitActiveDocument",
+        "description": "Obtains Revit's Active Autodesk.Revit.DB.Document instance.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "commandData": {
+                    "name": "commandData",
+                    "type": "Autodesk.Revit.UI.ExternalCommandData",
+                    "description": "The Revit Application Data Object exposed by Autodesk.",
+                    "destructuredNamespace": [
+                        "Autodesk",
+                        "Revit",
+                        "UI"
+                    ]
+                },
+                "testString": {
+                    "name": "testString",
+                    "type": "System.String",
+                    "description": "A Test string.",
+                    "destructuredNamespace": [
+                        "System"
+                    ]
+                }
+            },
+            "required": [],
+            "additionalProperties": false
+        },
+        "output": {
+            "MethodResultOutputType": "Autodesk.Revit.DB.Document",
+            "MethodResultOutputDestructuredNamespace": [
+                "System"
+            ]
+        },
+        "methodDocumentation": "Obtains Revit's Active Autodesk.Revit.DB.Document instance.",
+        "software": null,
+        "mediaDocumentation": null,
+        "dynamoSampleImplementationFiles": null,
+        "dynamoRelatedNodes": null
+    }
+]

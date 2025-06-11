@@ -25,5 +25,8 @@ app.MapAboutEduardoModelTunningUrl();
 // app.MapAboutEduardoRAGUrl();
 // app.MapAAboutEduardoOutputStructureUrl();
 
+app.MapBimSampleApiUrl();
+
+
 app.UseCors("AllowLocalhostReact");
 app.Run(); 
