@@ -65,7 +65,7 @@ public static class StaticDataEndpoints
 
             if (!File.Exists(filePath))
             {
-                return Results.NotFound();
+                return Results.NotFound(); 
             }
 
             try
