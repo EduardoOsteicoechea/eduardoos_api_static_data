@@ -59,7 +59,7 @@ public static class StaticDataEndpoints
     
 	private static void ReturnFileContentAsText(WebApplication app, string url, string fileName)
     {
-        app.MapGet(url, async  (IWebHostEnvironment env) =>
+        app.MapGet(url, async (IWebHostEnvironment env) =>
         {
             var filePath = Path.Combine(env.WebRootPath, fileName);
 
